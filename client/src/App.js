@@ -11,6 +11,8 @@ import Mistake404 from './Pages/Mistake404';
 import "./App.scss"
 import ThankYouPage from './Pages/ThankYouPage';
 import CookiesPage from './Pages/Cookies';
+import Welcome from "./Pages/Welcome";
+
 
 
 
@@ -35,10 +37,6 @@ setInterval(window.onload = function () {
 
 
 
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -48,7 +46,7 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/Litepaper">
+          <Route path="/Safepay">
             <Litepaper />
           </Route>
           <Route path="/ThankYou">
@@ -56,6 +54,9 @@ function App() {
           </Route>
           <Route path="/Cookies">
             <CookiesPage />
+          </Route>
+          <Route path="/Welcome">
+            <Welcome />
           </Route>
           <Mistake404 />
           <Route>
@@ -78,7 +79,9 @@ function App() {
         </div>
       </div>
     </div>
+    
   );
 }
+
 
 export default App;

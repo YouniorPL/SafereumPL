@@ -157,6 +157,24 @@ $cLightGray: rgba(#000, 0.1);
       top: 5px;
     }
   }
+  &__telegram {
+    margin: 0;
+    font-size: 17px;
+    color: $cGray;
+    font-weight: 300;
+    margin-top: 30px;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: url(./Images/telegram.png);
+      background-repeat: no-repeat;
+      left: -30px;
+      top: 5px;
+    }
+  }
 }
 @media (min-width: 768px) {
   .accordion-item {

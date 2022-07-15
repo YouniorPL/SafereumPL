@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Nav.scss'
 // import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import Logo from '../../Assets/header/AndromedaLogo.svg'
+import Logo from '../../Assets/header/sfxlogo.png'
 import Instagram from './images/instagram.svg';
 import Twitter from './images/twitter.svg';
 import Discord from './images/discord.svg';
@@ -34,7 +34,7 @@ class Nav extends Component {
         { key: 1, menuItem: 'HOME', active: true, link: '/#' },
         { key: 6, menuItem: 'TOKENOMICS', active: false, link: '/#tokenomics' },
         { key: 2, menuItem: 'ABOUT', active: false, link: '/#about' },
-        { key: 3, menuItem: 'LITEPAPER', active: false, link: '/#litepaper' },
+        { key: 3, menuItem: 'GIVEAWAY', active: false, link: '/giveaway' },
         { key: 4, menuItem: 'ROADMAP', active: false, link: '/#roadmap' },
         { key: 5, menuItem: 'TEAM', active: false, link: '/#team' },
         { key: 7, menuItem: 'SUPPORT', active: false, link: '/#support' },

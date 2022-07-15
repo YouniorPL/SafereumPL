@@ -3,7 +3,7 @@ import './AccordionMenu.scss'
 
 const HOME = "HOME"
 const ABOUT = "ABOUT"
-const LITEPAPER = "LITEPAPER"
+const SAFEPAY = "SAFEPAY"
 const ROADMAP = "ROADMAP"
 const TEAM = "TEAM"
 const TOKENOMICS = "TOKENOMICS"
@@ -13,7 +13,7 @@ const data = [
     title: 'PAGES',
     HOME,
     ABOUT,
-    LITEPAPER,
+    SAFEPAY,
     ROADMAP,
     TEAM,
     TOKENOMICS
@@ -56,7 +56,7 @@ class AccordionItemMenu extends React.Component {
         title,
         HOME,
         ABOUT,
-        LITEPAPER,
+        SAFEPAY,
         ROADMAP,
         TEAM,
         TOKENOMICS
@@ -90,8 +90,8 @@ class AccordionItemMenu extends React.Component {
               <li> <a href="/#about" {...{ className: 'accordion-item__menu' }}>
                 {ABOUT}
               </a></li>
-              <li><a href="/#litepaper"{...{ className: 'accordion-item__menu' }}>
-                {LITEPAPER}
+              <li><a href="/#safepay"{...{ className: 'accordion-item__menu' }}>
+                {SAFEPAY}
               </a></li>
               <li><a href="/#roadmap"{...{ className: 'accordion-item__menu' }}>
                 {ROADMAP}

@@ -7,10 +7,12 @@ import planet_2 from "./images/planet_2.svg"
 import planet_3 from "./images/planet_3.svg"
 import planet_4 from "./images/planet_4.svg"
 // import Countdown from 'react-countdown'
+//eslint-disable-next-line
 import CountDownTimer from '@inlightmedia/react-countdown-timer'
 import Exchange from '../Exchange/Exchange';
 
 
+/* eslint-disable */
 class Header extends Component {
   render() {
     return (
@@ -69,15 +71,15 @@ class Header extends Component {
                 <h3 className="purple_name_tiny">WEB3 REVOLUTION!</h3>
                 <h2 className="welcome_text">WELCOME TO</h2>
                 <h1>SAFEREUM!</h1>
-                <h4 className="purple_name_regular">Your safety provider!</h4>
+                <h4 className="purple_name_regular">Don't be afraid to integrate blockchain into your life!</h4>
                 <Exchange />
                 
               </div>
             </div>
             <div className="circle_animation_block">
-              <div className="timecounter">
+              <div className="timecounter"> 
                 {/* <CountDownTimer dateTime="2021-08-05T21:00:00Z" shouldShowTimeUnits shouldHidePrecedingZeros shouldShowSeparator={false}></CountDownTimer> */}
-                SALE
+                Sale is Live!
               </div>
               <div className="circle_animation_block__wrap">
                 <div className="circle_animation_block__orbit orbit">
@@ -111,14 +113,14 @@ class Header extends Component {
               <CategoryNameHeader
                 title='Why Safereum Network?'
                 subtitle='Ecosystem'
-                text='- Safereum Network connects every industry to the blockchain'
+                text='- Our unique idea makes Safereum the most stable currency worldwide.'
               />
               <CategoryNameHeader
                 title='HOW IT WORKS?'
-                subtitle='Adaptation'
-                text='Our aim is to connect every industry via Safereum Blockchain'
-                subtitle2='Benefits?'
-                text2='Instead of exchanging your cryptocurrency to fiat to buy food, you can buy it with Safereum Coin!'
+                subtitle='Safepay'
+                text='Our payment system is build for safety and privacy.'
+                subtitle2='SafeWRK'
+                text2='Work SMART not hard; when you take care of your client, we will take care of your business.'
               />
             </div>
             <img className="scroll" src={Scroll} alt="" />

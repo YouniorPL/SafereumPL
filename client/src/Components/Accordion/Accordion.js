@@ -3,9 +3,9 @@ import './Accordion.scss'
 
 
 const paragraph = "POLAND, BOLESŁAWIEC 59-700"
-const phone_num_1 = "marketing@andromeda-exchange.org"
-const phone_num_2 = "office@andromeda-exchange.org"
-const mail = "info@token.com"
+const phone_num_1 = "marketing@safereum.eu"
+const phone_num_2 = "office@safereum.eu"
+const telegram = "t.me/SafereumGlobal"
 
 
 const data = [
@@ -14,7 +14,7 @@ const data = [
     paragraph,
     phone_num_1,
     phone_num_2,
-    mail
+    telegram,
   },
 ]
 
@@ -48,7 +48,7 @@ class AccordionItem extends React.Component {
         paragraph,
         phone_num_1,
         phone_num_2,
-        mail,
+        telegram,
 
       },
       state: {
@@ -80,8 +80,8 @@ class AccordionItem extends React.Component {
             <p {...{ className: 'accordion-item__phone_num' }}>
               {phone_num_2}
             </p>
-            <p {...{ className: 'accordion-item__mail' }}>
-              {mail}
+            <p {...{ className: 'accordion-item__telegram' }}>
+              {telegram}
             </p>
           </div>
         </div>

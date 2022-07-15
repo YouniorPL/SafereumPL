@@ -2,6 +2,10 @@ import BtnCta from '../BtnCta/BtnCta'
 import Img from './Img_08.jpeg'
 import './ThankYou.scss'
 
+
+
+
+
 export default function ThankYou() {
   return (
     <section className="thank-you">
@@ -10,17 +14,14 @@ export default function ThankYou() {
           <img src={Img} alt="astronaut" className='thank-you__img-tablet' />
           <div className="thank-you__block">
             <div className="thank-you__title">
-              You have been invited to join Safereum Network <strong>24 HOURS.</strong>
+              YOUR TRANSACTION HAS BEEN ACCEPTED! ANDROMEDA WILL BE SENT
+              TO YOUR WALLET WITHIN <strong>24 HOURS.</strong>
             </div>
             <div className="thank-you__subtitle">
-              PLEASE TAKE A MOMENT AND READ ABOUT OUR PROJECT FIRST,
-              WE HIGHLY RECOMMEND DOING RESEARCH
-              CLICK BUTTON BELOW TO BE REDIRECTED TO THE MAIN PAGE
-              <BtnCta
-            body='Main Page'
-            link='/'
-            className='thank-you__btn'
-          />
+              JOIN OUR COMMUNITY ON
+              SOCIAL NETWORKS AND YOU WILL
+              CONSTANTLY KNOW THE SITUATION
+              ON THE MARKET!
             </div>
           </div>
           <div className="thank-you__text">
@@ -38,8 +39,8 @@ export default function ThankYou() {
             to our service, you can achieve your goals.
           </div>
           <BtnCta
-            body='Register '
-            link='Register'
+            body='Register'
+            link='https://ico.safereum.eu/register'
             className='thank-you__btn'
           />
         </div>

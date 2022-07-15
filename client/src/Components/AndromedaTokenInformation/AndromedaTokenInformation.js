@@ -156,7 +156,7 @@ export default function AndromedaTokenInformation() {
           <li><strong>Facebook:</strong>https://www.facebook.com/<br className="br_to_delete" />AndromedaExchange</li>
         </ul>
         <div>
-          <a href="#">
+          <a href="/">
             <img src={top_btn} alt="" />
           </a>
         </div>

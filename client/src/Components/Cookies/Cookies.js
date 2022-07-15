@@ -63,7 +63,7 @@ Third-party cookies may be place on your computer when you visit the Site by com
         <h3>OTHER TRACKING TECHNOLOGIES</h3>
         <p>In addition to cookies, we may use web beacons, pixel tags, and other tracking technologies on the Site to help customize the Site and improve your experience. A “web beacon” or “pixel tag” is tiny object or image embedded in a web page or email. They are used to track the number of users who have visited particular pages and viewed emails, and acquire other statistical data. They collect only a limited set of data, such as a cookie number, time and date of page or email view, and a description of the page or email on which they reside. Web beacons and pixel tags cannot be declined. However, you can limit their use by controlling the cookies that interact with them.</p>
         <div>
-          <a href="#">
+          <a href="/">
             <img src={top_btn} alt="" />
           </a>
         </div>

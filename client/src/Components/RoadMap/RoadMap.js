@@ -1,18 +1,18 @@
 import CategoryName from '../CategoryName/CategoryName'
 import './RoadMap.scss'
-import TokenShip from './images/TOKENSHIP.svg'
+import TokenShip from './images/location.png'
 import TokenShipMob from './images/TOKENSHIPMOB.svg'
 import Ruler_Astro from '../../Assets/icons/Ruler_Astro.svg'
 import SlickSlider from '../../Components/SlickSlider/SlickSlider'
-import April from './images/APRIL.svg'
-import May from './images/MAY.svg'
-import June from './images/JUNE.svg'
-import July from './images/JULY.svg'
-import August from './images/AUGUST.svg'
-import September from './images/SEPTEMBER.svg'
-import October from './images/OCTOBER.svg'
-import November from './images/NOVEMBER.svg'
-import January_2021_2022 from './images/JANUARY_2021_2022.svg'
+import April from './images/STAGE1.png'
+import May from './images/STAGE2.png'
+import June from './images/STAGE3.png'
+import July from './images/STAGE4.png'
+import August from './images/STAGE5.png'
+import September from './images/STAGE6.png'
+import October from './images/STAGE7.png'
+import November from './images/STAGE8.png'
+import January_2021_2022 from './images/STAGE9.gif'
 import Planet from '../Planet/Planet'
 import dots_1200 from './images/dots_1200.svg'
 import cta_btn from './images/cta_btn.svg'
@@ -20,10 +20,10 @@ import cta_btn from './images/cta_btn.svg'
 const data = [
   {
     img: April,
-    date: 'APRIL 2021',
-    text: ['Creating Andromeda idea and establishing core team.'
+    date: 'May 2021',
+    text: ['Rounds 4-7 Launching Safereum Coin for Public.'
     ],
-    month: 'April',
+    month: 'Stage 1',
   },
   {
     img: May,
@@ -32,7 +32,7 @@ const data = [
       'Deploying Andromeda Token.',
       'Expanding idea of the Andromeda Exchange.'
     ],
-    month: 'May'
+    month: 'Stage 2'
   },
   {
     img: June,
@@ -44,7 +44,7 @@ const data = [
       'Start of the private presale',
       'Starting Airdrop Program.',
     ],
-    month: 'June',
+    month: 'Stage 3',
   },
   {
     img: July,
@@ -55,7 +55,7 @@ const data = [
       'First Public Presale',
       'End of Airdrop program.',
     ],
-    month: 'July',
+    month: 'Stage 4',
   },
   {
     img: August,
@@ -66,7 +66,7 @@ const data = [
       'Publishing concept of Andromeda Exchange',
       'Publishing schedule of LiveStreams and AMA.',
     ],
-    month: 'August',
+    month: 'Stage 5',
   },
   {
     img: September,
@@ -76,7 +76,7 @@ const data = [
       'Establishing first partnership',
       'Expanding Andromeda team.',
     ],
-    month: 'September',
+    month: 'Stage 6',
   },
   {
     img: October,
@@ -84,7 +84,7 @@ const data = [
     text: [
       'Announcement of the first Pre-Listed token',
       'Ending of the Launchpad ICO.'],
-    month: 'October',
+    month: 'Stage 7',
   },
   {
     img: November,
@@ -93,7 +93,7 @@ const data = [
       'Beta preview of the Exchange',
       'Second Partnership.',
     ],
-    month: 'November',
+    month: 'Stage 8',
   },
   {
     img: January_2021_2022,
@@ -103,7 +103,7 @@ const data = [
       'Unlocking Launchpad tokens ',
       'Listing Andromeda Token on first exchange.',
     ],
-    month: 'January 2021-2022'
+    month: 'Stage 9'
   },
 ]
 
@@ -111,55 +111,55 @@ export default function RoadMap() {
   function switchPlanet(planet) {
 
     switch (planet) {
-      case 'April':
+      case 'Stage 1':
         moveTo(2, 20)
         activateRuler(0)
         moveRullerTo(0)
         hideClickBanner()
         break;
-      case 'May':
+      case 'Stage 2':
         moveTo(13, 62)
         activateRuler(1)
         moveRullerTo(0)
         hideClickBanner()
         break;
-      case 'June':
+      case 'Stage 3':
         moveTo(23, 67)
         activateRuler(2)
         moveRullerTo(0)
         hideClickBanner()
         break;
-      case 'July':
+      case 'Stage 4':
         moveTo(36, 65)
         activateRuler(3)
         moveRullerTo(0)
         hideClickBanner()
         break;
-      case 'August':
+      case 'Stage 5':
         moveTo(40, 34)
         activateRuler(4)
         moveRullerTo(0)
         hideClickBanner()
         break;
-      case 'September':
+      case 'Stage 6':
         moveTo(61, 35)
         activateRuler(5)
         moveRullerTo(0)
         hideClickBanner()
         break;
-      case 'October':
+      case 'Stage 7':
         moveTo(75, 19)
         activateRuler(6)
         moveRullerTo(600)
         hideClickBanner()
         break;
-      case 'November':
+      case 'Stage 8':
         moveTo(85, 26)
         activateRuler(7)
         moveRullerTo(600)
         hideClickBanner()
         break;
-      case 'January 2021-2022':
+      case 'Stage 9':
         moveTo(87, 64)
         activateRuler(8)
         moveRullerTo(600)
@@ -203,10 +203,7 @@ export default function RoadMap() {
       <div className="container">
         <CategoryName
           title='ROADMAP'
-          subtitle='HERE YOU CAN SEE THE PATH THAT 
-          WE HAVE PREPARED FOR YOUR 
-          SUCCESS, AFTER PASSING IT, YOU 
-          WILL REACH YOUR GOAL!'/>
+          subtitle='HERE YOU CAN SEE MILESTONES WE NEED TO COMPLETE FOR OUR PROJECT TO BE FINALIZED.'/>
         <div className="slickslider">
           <div className="title">
             <div className="title__text">
@@ -241,7 +238,7 @@ export default function RoadMap() {
             }
             <Planet className="milkyway__tokenship"
               img={TokenShip}
-              txt='TOKENSHIP'
+              txt='Development'
               switchPlanet={() => switchPlanet()}
             />
             <img className="milkyway__cta" src={cta_btn} alt="" />
@@ -253,100 +250,107 @@ export default function RoadMap() {
             <div className="time_title">
               <div className="n01">
                 <p className="number_time">01</p>
-                <span><strong>APRIL 2021</strong><br />
+                <span><strong>Coin Development</strong><br />
                   <ul>
+                  Rounds 4-7
                     <li>
-                      Creating Andromeda
-                      idea and establishing
-                      core team.
+                  Launching Safereum Coin for Public.
                 </li>
                   </ul>
                 </span>
               </div>
               <div className="n01">
                 <p className="number_time">02</p>
-                <span><strong>MAY 2021</strong></span>
+                <span><strong>Safepay & Safenet</strong></span>
                 <ul>
+                Rounds 8-13
                   <li>
-                    Deploying Andromeda Token.
+                    Enabling primary version of Safepay.
               </li>
                   <li>
-                    Expanding idea of the Andromeda Exchange.
+                    Expanding list of supported companies.
+              </li>
+              <li>
+                    Safechain v0.1.
               </li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">03</p>
-                <span><strong>JUNE 2021</strong></span>
+                <span><strong>Essentials</strong></span>
                 <ul>
+                  Rounds 14-19
                   <li>
-                    Creating first website of Andromeda
+                    Deploying SafeWallet.
               </li>
                   <li>
-                    Creating Social Mediafor Andromeda Exchange
+                    Enabling Safereum Smart Contracts.
               </li>
                   <li>
-                    Preparing first marketing strategies
+                    Deploying SafeXSwap.
               </li>
                   <li>
-                    Start of the private presale
-              </li>
-                  <li>
-                    Starting Airdrop Program.
+                    Deploying Early version of SafeWRK.
               </li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">04</p>
-                <span><strong>JULY 2021</strong></span>
+                <span><strong>Centralized Exchange</strong></span>
                 <ul>
-                  <li>Rebranding to Andromeda 2.0</li>
-                  <li>Finishing new website</li>
-                  <li>First Public Presale</li>
-                  <li>End of Airdrop program.</li></ul>
+                  Round 20
+                  <li>Safereum Bridge for cross-chain.</li>
+                  <li>Early version of SafeXchange.</li>
+                  </ul>
               </div>
               <div className="n01">
                 <p className="number_time">05</p>
-                <span><strong>AUGUST 2021</strong></span>
+                <span><strong>Advanced Marketing</strong></span>
                 <ul>
-                  <li>Second Public Presale</li>
-                  <li>Preparing for Launchpad ICO</li>
-                  <li>Publishing concept of Andromeda Exchange</li>
-                  <li>Publishing schedule of LiveStreams and AMA</li>
+                  Rounds 21-25
+                  <li>Minor and Major exchanges listings.</li>
+                  <li>Establishment of Safereum Ambassadors.</li>
+                  <li>Major Partnership.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">06</p>
-                <span><strong>SEPTEMBER 2021</strong></span>
+                <span><strong>Major Upgrade</strong></span>
                 <ul>
-                  <li>Alpha Preview of the Exchange</li>
-                  <li>Establishing first partnership</li>
-                  <li>Expanding Andromeda team.</li>
+                  Rounds 26-29
+                  <li>Beta Access to SafeXchange.</li>
+                  <li>Upgrade for all Safereum products.</li>
+                  <li>Expanding Safereum team.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">07</p>
-                <span><strong>OCTOBER 2021</strong></span>
+                <span><strong>Safechain & More.</strong></span>
                 <ul>
-                  <li>Announcement of the first Pre-Listed token</li>
-                  <li>Ending of the Launchpad ICO.</li>
+                  Rounds 30-35
+                  <li>Launching Blockfund platform.</li>
+                  <li>SafeChain upgrade to v1.0.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">08</p>
-                <span><strong>NOVEMBER 2021</strong></span>
+                <span><strong>The Last Push</strong></span>
                 <ul>
-                  <li>Beta preview of the Exchange</li>
-                  <li>Second Partnership.</li>
+                  Rounds 36-45
+                  <li>Finalization of the project.</li>
+                  <li>Expanding project services.</li>
+                  <li>Listing Safereum Coin on Top exchanges.</li>
+                  <li>Starting 30 days countdown for official launchpad finish.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">09</p>
-                <span><strong>DECEMBER 2021/JANUARY 2022</strong></span>
+                <span><strong>Major Marketing</strong></span>
                 <ul>
-                  <li>Pre-Listing several new tokens</li>
-                  <li>Unlocking Launchpad tokens </li>
-                  <li>Listing Andromeda Token on first exchange.</li>
+                  Bonus Rounds
+                  <li>Global Product Marketing.</li>
+                  <li>Unlocking launchpad coins.</li>
+                  <li>Providing additional liquidity for SafeSwap USD/SFX pair.</li>
                 </ul>
               </div>
               <div className="n01">

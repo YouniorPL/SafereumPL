@@ -5,7 +5,7 @@ import AccordionMenu from '../AccordionMenu/AccordionMenu';
 
 
 
-
+/* eslint-disable */
 export default function Footer() {
   return (
     <div className="footer">

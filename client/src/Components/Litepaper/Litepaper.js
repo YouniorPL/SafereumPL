@@ -8,46 +8,40 @@ import BtnCta from '../BtnCta/BtnCta'
 export default function Litepaper() {
   return (
     <div className="litepaper">
-      <div id="litepaper">
+      <div id="safepay">
 
       </div>
       <div className="container">
         <div className="litepaper_wrapper">
 
           <CategoryName
-            title='LITEPAPER'
-            subtitle='WITH THIS DOCUMENT, YOU WILL GET MORE DETAILED INFORMATION ABOUT ANDROMEDA TOKEN.' />
+            title='SAFEPAY'
+            subtitle='THE BEST PAYMENT SYSTEM FOR ON-LINE AND DAILY PURCHASES - SOON AVAILABLE AT YOUR CLOSEST GROCERY SHOP.' />
           <div className="litepaper_text">
-            <p className="litepaper_first_p" >ANDROMEDA TOKEN: <br />
-              <br />
-              General information.
-              The aim of the project is to create a safe
-              place for Binance Smart Chain, further
-              called “BSC”, investors, by enabling
-              high-quality project verification.
-              Andromeda Exchange is the first place
-              that will make sure BSC project is 100%
-              safe and legitimate, this way investors
-              can feel much more secured while
-              investing their funds into one of them.
-              Also, we will enable easy-to-use BSC
-              token generator, with much cheaper price.</p>
+            <p className="litepaper_first_p" >ALL ABOUT SAFEPAY:
+            <br/>
+              Simply put, it is a payment gateway that allows for contactless payments.
+              They can be done via the web and at stationary points in your area,
+              including grocery stores, fuel stations, beauty salons, and many more.<br></br>
+              </p>
             <img src={LitepaperPlanet} alt="" />
-            <p className="litepaper_second_p">ANDROMEDA SECURITY. <br />
-              Our plan to secure investors will be done
-              in 2 phases.
-              Phase 1 will be a very detailed
-              KYC process of every token developer that
-              will want to be listed on our exchange.
-              Phase 2 will be a request of deposit of at
-              least 50% of the liquidity value, which will
-              be then shown on exchange directly as
-              part of “safety score”.</p>
+            <p className="litepaper_second_p">NFC, QR and WEB3: <br />
+              Shops will enable two ways of purchase for you: a QR code system
+              that will redirect you to your basket in DAPP.
+              And via official Safereum terminals, that support one-use cards generated in your wallet
+              use NFC technology for contactless payments.</p>
+              <p className="litepaper_second_p">SAFEPAY PRICING: <br />
+              Our fees are stable and transparent to assure the attractiveness of Safereum Network.
+              We do have hidden costs and we do not offer subscriptions from client side.
+              The only fees that apply are network fees required for network to function.<br />
+             <strong>If you own a company and want to integrate our systems, please see the documentation below.</strong>
+
+              </p>
           </div>
           <div className="see_more_lite_paper">
             <BtnCta
-              body='SEE MORE:'
-              link='/litepaper'
+              body='Requirements and Pricing:'
+              link='/Pricing.pdf'
             />
           </div>
         </div>

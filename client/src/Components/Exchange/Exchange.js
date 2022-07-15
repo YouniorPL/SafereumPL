@@ -1,45 +1,54 @@
 import './Exchange.scss'
 import { Component } from 'react'
+import BtnExc from './BtnExc'
 
-const { REACT_APP_ONE_ADRT_IN_BNB, REACT_APP_MAX_TRANSFER_VALUE_IN_BNB } = process.env
+
+const { REACT_APP_ONE_SFX_IN_USD } = process.env
 
 class Exchange extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      andromeda: '',
-      bnb: '',
-      proportion: REACT_APP_ONE_ADRT_IN_BNB
+      safereum:'',
+      usd: '',
+      proportion: REACT_APP_ONE_SFX_IN_USD
     }
-    this.bnbToAnd = this.bnbToAnd.bind(this)
+    this.usdToSfx = this.usdToSfx.bind(this)
+
   }
 
-  bnbToAnd(event) {
-    let newInp = event.target.value.replace(/[^0-9\.]/g, "").replace(/\.{2,}/, '.')
-    // console.log(`newInp - ${newInp}`);
-    // if (newInp > 10) {
-    //   newInp = 10
-    // }
+  usdToSfx(event) {
+    //eslint-disable-next-line
+    let newInp = event.target.value.replace(/[^0-9\.]/g,"").replace(/\.{2,}/,'.')
+    console.log(`newInp - ${newInp}`);
+    if (newInp > 10001) {
+    newInp = 10000
+    }
     event.target.value = newInp
     this.setState({
-      bnb: newInp,
-      andromeda: newInp / this.state.proportion
+      usd: newInp,
+      safereum: newInp / this.state.proportion 
+    
     })
-
-    // console.log(this.state);
+  console.log(this.state);
   }
   render() {
     return (
       <div className="exchange">
         <form className="exchange__form">
           <div className="exchange__inputs">
-            <input className="exchange__input exchange__input--bnb" type="text" placeholder="Limit: 0.01 - 10" pattern="[\d*]" onChange={this.bnbToAnd} />
+            <input className="exchange__input exchange__input--usd" type="text" placeholder="Choose your USD amount" pattern="[\d*]" onChange={this.usdToSfx} />
 
-            <input className="exchange__input exchange__input--andromeda" type="text" placeholder="0.0" value={this.state.andromeda} disabled />
+            <input className="exchange__input exchange__input--safereum" type="text" placeholder="Here we display SFX amount" value={this.state.safereum} enabled />
           </div>
           <div className="exchange__buttons">
-            <div className=" exchange__btn exchange__btn--connect" >1 - CONNECT WALLET</div>
-            <div className="exchange__btn exchange__btn--swap" >2 - SWAP</div>
+            <BtnExc
+             body='Buy Now'
+             link='https://ico.safereum.eu/register'
+             />
+            <BtnExc
+             body='⬆ SFX Calculator ⬆'
+             />
           </div>
         </form>
       </div>
