@@ -3,7 +3,7 @@ import './AndromedaTeam.scss'
 import Karol from '../../Assets/andromeda_team/Karol.png'
 import Amit from '../../Assets/andromeda_team/Amit.png'
 import Mathieu from '../../Assets/andromeda_team/Mathieu.png'
-import AndromedaTeam from '../../Assets/photos/Img_05.jpeg'
+import AndromedaTeam from '../../Assets/photos/astronaut.png'
 
 export default function AndromedaTea() {
   return (

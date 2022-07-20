@@ -12,7 +12,7 @@ import "./App.scss"
 import ThankYouPage from './Pages/ThankYouPage';
 import CookiesPage from './Pages/Cookies';
 import Welcome from "./Pages/Welcome";
-
+import Giveaway from "./Pages/Giveaway"
 
 
 
@@ -54,6 +54,9 @@ function App() {
           </Route>
           <Route path="/Cookies">
             <CookiesPage />
+          </Route>
+          <Route path="/Giveaway">
+            <Giveaway />
           </Route>
           <Route path="/Welcome">
             <Welcome />

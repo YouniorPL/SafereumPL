@@ -1,6 +1,6 @@
 import CategoryName from '../CategoryName/CategoryName'
 import './RoadMap.scss'
-import TokenShip from './images/location.png'
+import TokenShip from './images/TOKENSHIP.svg'
 import TokenShipMob from './images/TOKENSHIPMOB.svg'
 import Ruler_Astro from '../../Assets/icons/Ruler_Astro.svg'
 import SlickSlider from '../../Components/SlickSlider/SlickSlider'
