@@ -27,9 +27,11 @@ class Exchange extends Component {
     event.target.value = newInp
     this.setState({
       usd: newInp,
-      safereum: newInp / this.state.proportion 
+      safereum: newInp * this.state.proportion
     
     })
+
+
   console.log(this.state);
   }
   render() {
@@ -39,15 +41,12 @@ class Exchange extends Component {
           <div className="exchange__inputs">
             <input className="exchange__input exchange__input--usd" type="text" placeholder="USD amount" pattern="[\d*]" onChange={this.usdToSfx} />
 
-            <input className="exchange__input exchange__input--safereum" type="text" placeholder="SFX amount" value={this.state.safereum} enabled />
+            <input className="exchange__input exchange__input--safereum" type="text" placeholder="SFX amount" value={Math.floor(this.state.safereum * 100) / 100 } enabled />
           </div>
           <div className="exchange__buttons">
             <BtnExc
              body='Buy Now'
              link='https://ico.safereum.eu/register'
-             />
-            <BtnExc
-             body='⬆ SFX Calculator ⬆'
              />
           </div>
         </form>

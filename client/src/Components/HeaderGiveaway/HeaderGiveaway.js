@@ -11,7 +11,7 @@ export default function HeaderLitepaper() {
         </a>
         <CategoryName
           title="HUGE GIVEAWAY!"
-          subtitle="HAVE YOU EVER WANTED TO DRIVE REAL LAMBORHINI? TODAY IS YOUR CHANCE! ALL YOU HAVE TO DO IS WIN IN OUR GIVEAWAY."
+          subtitle="HAVE YOU EVER WANTED TO DRIVE REAL LAMBORGHINI? TODAY IS YOUR CHANCE! ALL YOU HAVE TO DO IS WIN IN OUR GIVEAWAY."
         />
         <div className="seemore_text">
           <p className="seemore">HOW TO PARTICIPATE</p>

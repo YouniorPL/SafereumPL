@@ -15,7 +15,6 @@ import Welcome from "./Pages/Welcome";
 import Giveaway from "./Pages/Giveaway"
 
 
-
 setInterval(window.onload = function () {
   const cookieContainer = document.querySelector(".cookie-container");
   const cookieButton = document.querySelector(".cookie-btn");
@@ -36,10 +35,9 @@ setInterval(window.onload = function () {
 });
 
 
-
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="light">
       <Router>
         <Nav />
         <Switch>
@@ -82,7 +80,6 @@ function App() {
         </div>
       </div>
     </div>
-    
   );
 }
 
