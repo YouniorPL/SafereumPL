@@ -106,10 +106,10 @@ export default function Tokenomics() {
           <div className="token_tabeles">
             <div className="andromeda_token first_two">
               <p>MAX SUPPLY <br className="br_to_space" /> <strong>Safereum Coin</strong><br className="br_to_delete" /></p>
-              <p className="total">50.000.000</p>
+              <p className="total">50,000,000</p>
             </div>
             <div className="andromeda_token first_two">
-              <p> COINS FOR SALE <br className="br_to_space" /> <strong>ICO Launchpad</strong> <br className="br_to_delete" /> </p> <p className="total"> 20.134.899</p>
+              <p> COINS FOR SALE <br className="br_to_space" /> <strong>ICO Launchpad</strong> <br className="br_to_delete" /> </p> <p className="total"> 20,134,899</p>
             </div>
             <div className="andromeda_token andromeda_token_with_btn">
               <p>DOCUMENTATION<br /><strong>Work In Progress...</strong></p>

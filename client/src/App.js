@@ -15,6 +15,7 @@ import Welcome from "./Pages/Welcome";
 import Giveaway from "./Pages/Giveaway"
 
 
+
 setInterval(window.onload = function () {
   const cookieContainer = document.querySelector(".cookie-container");
   const cookieButton = document.querySelector(".cookie-btn");

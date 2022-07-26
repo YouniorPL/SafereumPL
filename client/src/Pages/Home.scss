@@ -1,9 +1,19 @@
-#light {
-    background-color: #ffffff;
-  }
-  #dark {
-    background-color: #000000;
-    p {
-      color:#ffffff;
+.home{
+  height: 80px;
+  align-items: center;
+  background-color: #001838;
+  position: fixed;
+  right:10px;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  .container {
+    padding: 50px 30px !important;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    a {
+      height: 29px;
     }
   }
+}

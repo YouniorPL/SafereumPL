@@ -20,14 +20,14 @@ export default function About() {
             <img src={AboutPlanet} alt="" />
           </div>
           <p className="what_are_the">WHAT ARE THE ADVANTAGES OF
-            OUR SAFEREUM NETWORK?
+            OUR SAFEREUM NETWORK?<br />
             That's simple; the Safereum ecosystem connects global industries
             such as grocery stores, car dealers, transport companies, et cetera.
-            That way, Safereum is more stable and sustainable than other cryptocurriencies
-            beceause of decreasing need for SFX to Fiat conversion.<br />
+            That way, Safereum is more stable and sustainable than other cryptocurrencies
+            because of decreasing need for SFX to Fiat conversion.<br />
             <br />
-            Thanks to Masternode technology, Safereum Coin allows hosting an increadible
-            amount of transfers per secound, instant Tx and private transactions.<br />
+            Thanks to Masternode technology, Safereum Coin allows hosting an incredible
+            amount of transfers per second, instant Tx and private transactions.<br />
             <br />
             Even better, we plan to host various services that allow for even broader coverage of Safereum ecosystem.
             So you may consider Safereum as a currency of the future!</p>

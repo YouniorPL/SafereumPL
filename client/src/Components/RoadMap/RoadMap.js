@@ -20,88 +20,87 @@ import cta_btn from './images/cta_btn.svg'
 const data = [
   {
     img: April,
-    date: 'May 2021',
-    text: ['Rounds 4-7 Launching Safereum Coin for Public.'
+    date: 'Rounds 4-7',
+    text: ['Launching Safereum Coin for Public.'
     ],
     month: 'Stage 1',
   },
   {
     img: May,
-    date: 'MAY 2021',
+    date: 'Rounds 8-13',
     text: [
-      'Deploying Andromeda Token.',
-      'Expanding idea of the Andromeda Exchange.'
+      'Enabling primary version of Safepay.',
+      'Expanding list of supported companies.',
+      'Safechain v0.1.'
     ],
     month: 'Stage 2'
   },
   {
     img: June,
-    date: 'JUNE 2021',
+    date: 'Rounds 14-19',
     text: [
-      'Creating first website of Andromeda',
-      'Creating Social Media for Andromeda Exchange',
-      'Preparing first marketing strategies',
-      'Start of the private presale',
-      'Starting Airdrop Program.',
+      'Deploying SafeWallet.',
+      'Enabling Safereum Smart Contracts.',
+      'Deploying SafeXSwap.',
+      'Deploying Early version of SafeWRK.'
     ],
     month: 'Stage 3',
   },
   {
     img: July,
-    date: 'JULY 2021',
+    date: 'Round 20',
     text: [
-      'Rebranding to Andromeda 2.0',
-      'Finishing new website',
-      'First Public Presale',
-      'End of Airdrop program.',
+      'Safereum Bridge for cross-chain.',
+      'Early version of SafeXchange.'
     ],
     month: 'Stage 4',
   },
   {
     img: August,
-    date: 'AUGUST 2021',
+    date: 'Rounds 21-25',
     text: [
-      'Second Public Presale',
-      'Preparing for Launchpad ICO',
-      'Publishing concept of Andromeda Exchange',
-      'Publishing schedule of LiveStreams and AMA.',
+      'Minor and Major exchanges listings.',
+      'Establishment of Safereum Ambassadors.',
+      'Major Partnership.'
     ],
     month: 'Stage 5',
   },
   {
     img: September,
-    date: 'SEPTEMBER 2021',
+    date: 'Rounds 26-29',
     text: [
-      'Alpha Preview of the Exchange',
-      'Establishing first partnership',
-      'Expanding Andromeda team.',
+      'Beta Access to SafeXchange.',
+      'Upgrade for all Safereum products.',
+      'Expanding Safereum team.',
     ],
     month: 'Stage 6',
   },
   {
     img: October,
-    date: 'OCTOBER 2021',
+    date: 'Rounds 30-35',
     text: [
-      'Announcement of the first Pre-Listed token',
-      'Ending of the Launchpad ICO.'],
+      'Launching Blockfund platform.',
+      'SafeChain upgrade to v1.0.'],
     month: 'Stage 7',
   },
   {
     img: November,
-    date: 'NOVEMBER 2021',
+    date: 'Rounds 36-45',
     text: [
-      'Beta preview of the Exchange',
-      'Second Partnership.',
+      'Finalization of the project.',
+      'Expansion of Safereum Network services.',
+      'Listing Safereum Coin on Top exchanges.',
+      'Starting 30 days countdown for official launchpad finish.'
     ],
     month: 'Stage 8',
   },
   {
     img: January_2021_2022,
-    date: 'DECEMBER 2021/JANUARY 2022',
+    date: 'Bonus Rounds',
     text: [
-      'Pre-Listing several new tokens',
-      'Unlocking Launchpad tokens ',
-      'Listing Andromeda Token on first exchange.',
+      'Global Product Marketing.',
+      'Unlocking launchpad coins.',
+      'Providing additional liquidity for SafeSwap USD/SFX pair.',
     ],
     month: 'Stage 9'
   },
@@ -338,7 +337,7 @@ export default function RoadMap() {
                 <ul>
                   Rounds 36-45
                   <li>Finalization of the project.</li>
-                  <li>Expanding project services.</li>
+                  <li>Expansion of Safereum Network services.</li>
                   <li>Listing Safereum Coin on Top exchanges.</li>
                   <li>Starting 30 days countdown for official launchpad finish.</li>
                 </ul>

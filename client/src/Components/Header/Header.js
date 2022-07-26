@@ -77,7 +77,7 @@ class Header extends Component {
                 <h3 className="purple_name_tiny">WEB3 REVOLUTION!</h3>
                 <h2 className="welcome_text">WELCOME TO</h2>
                 <h1>SAFEREUM!</h1>
-                <h4 className="purple_name_regular">Don't be afraid to integrate blockchain into your life!</h4>
+                <h4 className="purple_name_regular">Your global payment and safety provider!</h4>
                 <Exchange />
                 
               </div>
@@ -111,18 +111,14 @@ class Header extends Component {
                 </div>
               </div>
             </div>
-            <div className="timecounter__small">
-              {/* <CountDownTimer dateTime="2021-08-05T21:00:00Z" shouldShowTimeUnits shouldHidePrecedingZeros shouldShowSeparator={false}></CountDownTimer> */}
-              SALE
-            </div>
-            <div className="categorynameheader_wrap">
+           <div className="categorynameheader_wrap">
               <CategoryNameHeader
                 title='Why Safereum Network?'
                 subtitle='Ecosystem'
                 text='- Our unique idea makes Safereum the most stable currency worldwide.'
               />
               <CategoryNameHeader
-                title='HOW IT WORKS?'
+                title='MAIN PRODUCTS'
                 subtitle='Safepay'
                 text='Our payment system is build for safety and privacy.'
                 subtitle2='SafeWRK'

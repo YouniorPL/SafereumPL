@@ -11,7 +11,11 @@ export default function About() {
         <CategoryName
           title='GUIDE'
           subtitle='STEP BY STEP INSTRUCTIONS FOR PARTICIPANTS'
+          
         />
+                  <div className="aboutplanet">
+            <img src={AboutPlanet} alt="" />
+          </div>
         <div className="about_wrapper">
           <p className="who_we_are_p"><strong>STEP 1: REGISTRATION</strong><br />
             USE BUTTON BELOW TO CREATE YOUR LAUNCHPAD ACCOUNT
@@ -20,10 +24,8 @@ export default function About() {
             link='https://ico.safereum.eu'
             className='thank-you__btn'
           />
-          </p>
-          <div className="aboutplanet">
-            <img src={AboutPlanet} alt="" />
-          </div>
+          </p><br />
+
           <p className="what_are_the"><strong>STEP 2: ACTIVATE YOUR ACCOUNT</strong><br />
           CONNECT TO YOUR EMAIL AND CLICK ON VERIFICATION MESSAGE.</p>
           <p className="what_are_the"><strong>STEP 3: MAKE A PURCHASE</strong><br />

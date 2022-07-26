@@ -5,9 +5,9 @@ import RulesG from '../Components/Giveaway/RulesG'
 export default function ThankYouPage() {
   return (
     <>
-    <HeaderGiveaway />
-    <AboutG />
-    <RulesG />
+      <HeaderGiveaway />
+      <AboutG />
+      <RulesG />
     
     </>
   )

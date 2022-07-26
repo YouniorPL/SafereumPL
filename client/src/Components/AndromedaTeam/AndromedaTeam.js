@@ -11,7 +11,7 @@ export default function AndromedaTea() {
       <div id="team"></div>
       <div className="container">
         <CategoryName
-          title='ANDROMEDA CORE TEAM'
+          title='SAFEREUM CORE TEAM'
           subtitle="SUCCESS STORIES ARE WRITTEN BY 
         PEOPLE WHO STUBBORNLY PURSUE 
         THEIR GOALS, AND THEY DON'T 
