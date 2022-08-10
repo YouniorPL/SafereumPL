@@ -39,9 +39,9 @@ class Exchange extends Component {
       <div className="exchange">
         <form className="exchange__form">
           <div className="exchange__inputs">
-            <input className="exchange__input exchange__input--usd" type="text" placeholder="USD amount" pattern="[\d*]" onChange={this.usdToSfx} />
+            <input className="exchange__input exchange__input--usd" type="text" placeholder="Type SFX Amount" pattern="[\d*]" onChange={this.usdToSfx} />
 
-            <input className="exchange__input exchange__input--safereum" type="text" placeholder="SFX amount" value={Math.floor(this.state.safereum * 100) / 100 } enabled />
+            <input className="exchange__input exchange__input--safereum" type="text" placeholder="" value={Math.floor(this.state.safereum * 100) / 100 } enabled />
           </div>
           <div className="exchange__buttons">
             <BtnExc

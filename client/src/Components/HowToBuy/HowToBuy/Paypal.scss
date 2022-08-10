@@ -1,0 +1,146 @@
+.paypal {
+  position: relative;
+  img {
+    width: calc(100% + 60px);
+    margin: 0 -30px;
+  }
+  .BtnCta {
+    margin-top: 40px;
+  }
+  #paypal {
+    position: absolute;
+    top: -80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .paypal {
+    height: 100%;
+    img {
+      position: absolute;
+      width: 50%;
+      left: 0;
+      display: block;
+      max-width: 900px;
+      bottom: 34%;
+    }
+    .BtnCta {
+      margin-left: unset;
+      margin-right: unset;
+      margin-bottom: 30px;
+    }
+    .category_name {
+      width: 75%;
+    }
+    .paypal_text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .paypal_first_p {
+      width: 49%;
+      margin-top: 60px;
+    }
+    .paypal_second_p {
+      margin-top: 80px;
+    }
+  }
+}
+@media (min-width: 850px) {
+  .paypal {
+    .category_name {
+      margin-bottom: 60px;
+    }
+  }
+}
+@media (min-width: 900px) {
+  .paypal {
+    .paypal_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    img {
+      bottom: unset;
+    }
+    .category_name {
+      width: 49%;
+      margin-bottom: 26px;
+    }
+    .paypal_first_p {
+      margin-top: unset;
+    }
+    .paypal_second_p {
+      margin-top: unset;
+      width: 49%;
+    }
+    .see_more_lite_paper {
+      width: 49%;
+    }
+  }
+}
+@media (min-width: 1100px) {
+  .paypal {
+    img {
+      bottom: -100px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .paypal {
+    .paypal_text {
+      display: unset;
+    }
+    .paypal_first_p {
+      width: 100%;
+    }
+    .paypal_second_p {
+      width: 100%;
+    }
+    .container {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .paypal_wrapper {
+      width: 50%;
+    }
+    .BtnCta {
+      margin-top: 64px;
+    }
+    .category_name {
+      width: unset;
+    }
+    .paypal_wrapper {
+      width: 47%;
+    }
+    .see_more_lite_paper {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 1500px) {
+  .paypal {
+    img {
+      top: -10px;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .paypal {
+    .container {
+      padding-bottom: 100px;
+    }
+  }
+}
+@media (min-width: 1700px) {
+  .paypal {
+    .container {
+      padding-top: 0px;
+    }
+  }
+}
+@media (min-width: 1900px) {
+  .paypal {
+    height:850px;
+  }
+}

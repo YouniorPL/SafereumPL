@@ -85,7 +85,7 @@ class Header extends Component {
             <div className="circle_animation_block">
               <div className="timecounter"> 
                 {/* <CountDownTimer dateTime="2021-08-05T21:00:00Z" shouldShowTimeUnits shouldHidePrecedingZeros shouldShowSeparator={false}></CountDownTimer> */}
-                Sale is Live!
+                ROI 971%*
               </div>
               <div className="circle_animation_block__wrap">
                 <div className="circle_animation_block__orbit orbit">

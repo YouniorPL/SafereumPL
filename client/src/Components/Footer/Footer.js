@@ -85,8 +85,8 @@ export default function Footer() {
 
         </div>
         <div className="ground_rights">
-          <p className="ground_rights_andromeda">All rights reserved - Andromeda</p>
-          <p className="ground_rights_2021">&#169; Human IT Group 2021</p>
+          <p className="ground_rights_andromeda">All rights reserved - Safereum</p>
+          <p className="ground_rights_2021">&#169; Human IT Group 2021-2022</p>
         </div>
       </div>
     </div>

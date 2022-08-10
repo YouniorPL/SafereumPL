@@ -11,6 +11,7 @@ import Linkedin from './images/linkedin.svg';
 import Github from './images/git.svg';
 import Telegram from './images/telegram.svg';
 
+
 const Li = (props) => {
   const { body, active, link, changeActiveItemMenu } = props
   let classes = 'nav__list--item'
@@ -32,13 +33,14 @@ class Nav extends Component {
       menuActive: false,
       menuItems: [
         { key: 1, menuItem: 'HOME', active: true, link: '/#' },
-        { key: 6, menuItem: 'TOKENOMICS', active: false, link: '/#tokenomics' },
-        { key: 2, menuItem: 'ABOUT', active: false, link: '/#about' },
-        { key: 3, menuItem: 'GIVEAWAY', active: false, link: '/giveaway' },
-        { key: 4, menuItem: 'ROADMAP', active: false, link: '/#roadmap' },
-        { key: 5, menuItem: 'TEAM', active: false, link: '/#team' },
-        { key: 7, menuItem: 'SUPPORT', active: false, link: '/#support' },
-      ]
+        { key: 2, menuItem: 'DOCS', active: false, link: '/Documentation' },
+        { key: 3, menuItem: 'PARTNERS', active: false, link: '/Partners' },
+        { key: 4, menuItem: 'GIVEAWAY', active: false, link: '/Giveaway' },
+        { key: 5, menuItem: 'AFFILIATE', active: false, link: '/Affiliate'},
+        { key: 6, menuItem: 'ROADMAP', active: false, link: '/#roadmap'},
+        { key: 7, menuItem: 'BUY SFX', active: false, link: '/HowToBuy'},
+
+              ]
     }
   }
   toggleMenu() {

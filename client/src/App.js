@@ -1,7 +1,9 @@
-import Home from './Pages/Home'
+import {useState} from "react";
+import Home from './Pages/Home';
 import Litepaper from "./Pages/Litepaper";
-import Footer from './Components/Footer/Footer'
-import Nav from './Components/Nav/Nav'
+import Footer from './Components/Footer/Footer';
+import Nav from './Components/Nav/Nav';
+import Nav2 from './Components/Nav/Nav2';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +14,11 @@ import "./App.scss"
 import ThankYouPage from './Pages/ThankYouPage';
 import CookiesPage from './Pages/Cookies';
 import Welcome from "./Pages/Welcome";
-import Giveaway from "./Pages/Giveaway"
+import Giveaway from "./Pages/Giveaway";
+import AffiliatePage from './Pages/Affiliate';
+import HowToBuy from './Pages/HowToBuy';
+import Partners from './Pages/Partners';
+import Docs from './Pages/Docs'
 
 
 
@@ -37,28 +43,58 @@ setInterval(window.onload = function () {
 
 
 function App() {
+  //eslint-disable-next-line
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
   return (
     <div className="App" id="light">
       <Router>
-        <Nav />
         <Switch>
           <Route path="/" exact>
+          <Nav />
             <Home />
           </Route>
           <Route path="/Safepay">
+          <Nav />
             <Litepaper />
           </Route>
+          <Route path="/Partners">
+          <Nav />
+            <Partners />
+          </Route>
+          <Route path="/Documentation">
+          <Nav />
+            <Docs />
+          </Route>
           <Route path="/ThankYou">
+          <Nav />
             <ThankYouPage />
           </Route>
           <Route path="/Cookies">
+          <Nav />
             <CookiesPage />
           </Route>
           <Route path="/Giveaway">
+          <Nav />
             <Giveaway />
           </Route>
           <Route path="/Welcome">
+          <Nav />
             <Welcome />
+            </Route>
+          <Route path="/Affiliate">
+          <Nav />
+            <AffiliatePage />
+          </Route>
+          <Route path="/HowToBuy">
+          <Nav2 />
+            <HowToBuy />
           </Route>
           <Mistake404 />
           <Route>
