@@ -1,36 +1,36 @@
 import './Litepaper.scss'
-import LitepaperPlanet from '../../Assets/photos/Img_03.jpeg'
+import safepayPlanet from '../../Assets/photos/Img_03.jpeg'
 import CategoryName from '../CategoryName/CategoryName'
 import BtnCta from '../BtnCta/BtnCta'
 
 
 
-export default function Litepaper() {
+export default function safepay() {
   return (
-    <div className="litepaper">
+    <div className="safepay">
       <div id="safepay">
 
       </div>
       <div className="container">
-        <div className="litepaper_wrapper">
+        <div className="safepay_wrapper">
 
           <CategoryName
             title='SAFEPAY'
             subtitle='THE BEST PAYMENT SYSTEM FOR ON-LINE AND DAILY PURCHASES - SOON AVAILABLE AT YOUR CLOSEST GROCERY SHOP.' />
-          <div className="litepaper_text">
-            <p className="litepaper_first_p" >ALL ABOUT SAFEPAY:
+          <div className="safepay_text">
+            <p className="safepay_first_p" >ALL ABOUT SAFEPAY:
             <br/>
               Simply put, it is a payment gateway that allows for contactless payments.
               They can be done via the web and at stationary points in your area,
               including grocery stores, fuel stations, beauty salons, and many more.<br></br>
               </p>
-            <img src={LitepaperPlanet} alt="" />
-            <p className="litepaper_second_p">NFC, QR and WEB3: <br />
+            <img src={safepayPlanet} alt="" />
+            <p className="safepay_second_p">NFC, QR and WEB3: <br />
               Shops will enable two ways of purchase for you: a QR code system
               that will redirect you to your basket in DAPP.
               And via official Safereum terminals, that support one-use cards generated in your wallet
               use NFC technology for contactless payments.</p>
-              <p className="litepaper_second_p">SAFEPAY PRICING: <br />
+              <p className="safepay_second_p">SAFEPAY PRICING: <br />
               Our fees are stable and transparent to assure the attractiveness of Safereum Network.
               We do have hidden costs and we do not offer subscriptions from client side.
               The only fees that apply are network fees required for network to function.<br />

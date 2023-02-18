@@ -20,7 +20,7 @@ export default function docs404Comp() {
           <BtnCta
             grid='1'
             body='WHITEPAPER'
-            link='https://drive.google.com/drive/folders/10x1b57zNwqpeBdkChw7zU2VHfISchu8M?usp=sharing'
+            link='https://drive.google.com/file/d/1_zgYhIdEdF7PQ3G3XVRQ35uc3bdsKVpI/view?usp=sharing'
             className='docs__btn'
           />
 

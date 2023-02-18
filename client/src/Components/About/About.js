@@ -9,28 +9,26 @@ export default function About() {
       <div className="container">
         <CategoryName
           title='ABOUT'
-          subtitle='SAFEREUM NETWORK IS THE ANSWER FOR CURRENT DECENTRALIZATION PROBLEMS, STABLE ECOSYSTEM FOR USERS WORLDWIDE!'
+          subtitle='SAFEREUM IS A VISION OF DECENTRALIZED FINANSES AVAILABLE FOR WHOLE WORLD.'
         />
         <div className="about_wrapper">
-          <p className="who_we_are_p">WHAT IS SAFEREUM??<br />
-            Safereum is decentralized blockchain ecosystem build with Masternode
-            technology. Its main target is to adapt cryptocurrency worldwide and to 
-            host a vast network of services for everyday usage.</p>
+          <p className="who_we_are_p"><b>THE PROBLEM</b><br />
+            To this day, making payments with Bitcoin or Ethereum meets two problems, the first being high transfer fees,
+            many articles try to convince you that bitcoin has lower fees compared to regular banking, hovewer for every example a big amount of money is used for comperasion.
+            But the issues start to be visible with transactions of lower values for example 0.1$-10$ where the gas is a big percentage of payment.
+            Second problem is the lack of places that accept cryptocurrency payments, which makes it almost impossible to reuse optained crypto, instead it forces us to convert cryptocurrencies into fiat then to be used to buy food, pay bills etc.</p>
           <div className="aboutplanet">
             <img src={AboutPlanet} alt="" />
           </div>
-          <p className="what_are_the">WHAT ARE THE ADVANTAGES OF
-            OUR SAFEREUM NETWORK?<br />
-            That's simple; the Safereum ecosystem connects global industries
-            such as grocery stores, car dealers, transport companies, et cetera.
-            That way, Safereum is more stable and sustainable than other cryptocurrencies
-            because of decreasing need for SFX to Fiat conversion.<br />
+          <p className="what_are_the"><b>WHAT IS UNIQUE ABOUT SAFEREUM?</b><br />
+            Safereum Network is all about partners, we believe that by creating ecosystem full of companies who will accept our currency in exchange for their goods and services,
+            we can achieve what was always the purpose of blockchain, decentralized and well secured finances. </p>
             <br />
-            Thanks to Masternode technology, Safereum Coin allows hosting an incredible
-            amount of transfers per second, instant Tx and private transactions.<br />
+            <p className="what_are_the"><b>GENERAL IDEA</b><br />
+            Our ecosystem works very simple, instead of waiting for companies to accept cryptocurrencies themselves, we contact them and offer to integrate our systems.
+            That way, we can verify merchant and secure our community from any asset loss also making sure that every product we develop stays decentralized. <br />
             <br />
-            Even better, we plan to host various services that allow for even broader coverage of Safereum ecosystem.
-            So you may consider Safereum as a currency of the future!</p>
+            We also want to make sure that companies can reuse cryptocurrencies earned with us, for that we always search for any possible B2B connections for transactions circle to stay full.</p>
         </div>
       </div>
     </div>

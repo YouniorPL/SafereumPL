@@ -97,25 +97,22 @@ export default function Tokenomics() {
         <div className="category_name_wrapper">
           <CategoryName
             title='TOKENOMICS'
-            subtitle="WE GIVE YOU THE OPPORTUNITY TO 
-          ACHIEVE THE GOAL YOU HAVE BEEN 
-          DREAMING ABOUT FOR A LONG TIME, 
-          THAT IS, FINANCIAL INDEPENDENCE!"/>
+            subtitle="OUR TARGET FOR SAFEREUM IS TO NOT MAKE IT YET ANOTHER COIN FOR SPECULATIONS BUT REAL UTILITY THAT WILL GAIN VALUE EVERYDAY!"/>
         </div>
         <div className="tokenomics_table_wrapper">
           <div className="token_tabeles">
             <div className="andromeda_token first_two">
               <p>MAX SUPPLY <br className="br_to_space" /> <strong>Safereum Coin</strong><br className="br_to_delete" /></p>
-              <p className="total">50,000,000</p>
+              <p className="total">50,000,000 SFX</p>
             </div>
             <div className="andromeda_token first_two">
-              <p> COINS FOR SALE <br className="br_to_space" /> <strong>ICO Launchpad</strong> <br className="br_to_delete" /> </p> <p className="total"> 20,134,899</p>
+              <p> COINS FOR SALE <br className="br_to_space" /> <strong>ICO Launchpad</strong> <br className="br_to_delete" /> </p> <p className="total"> 4,118,334 SFX</p>
             </div>
             <div className="andromeda_token andromeda_token_with_btn">
-              <p>DOCUMENTATION<br /><strong>Work In Progress...</strong></p>
+              <p>DOCUMENTATION<br /><strong>Find more details about our project</strong></p>
               <p></p>
               
-              <a href="https://t.me/TheSafereumNews/59" target="_blank">READ MORE</a>
+              <a href="https://safereum.eu/Documentation" target="_blank">READ MORE</a>
             </div>
             <div className="andromeda_token andromeda_token_with_btn">
               <p> TELEGRAM <br /><strong>Join our community!</strong></p>

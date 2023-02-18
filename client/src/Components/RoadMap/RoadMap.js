@@ -20,87 +20,84 @@ import cta_btn from './images/cta_btn.svg'
 const data = [
   {
     img: April,
-    date: 'Rounds 4-7',
-    text: ['Launching Safereum Coin for Public.'
+    date: 'DONE ✓',
+    text: ['Finalization of rebranding.'
     ],
     month: 'Stage 1',
   },
   {
     img: May,
-    date: 'Rounds 8-13',
+    date: 'ACTIVE ⌛',
     text: [
-      'Enabling primary version of Safepay.',
-      'Expanding list of supported companies.',
-      'Safechain v0.1.'
+      'Enabling alpha version of SafeSWAP.Futures',
+      'Enabling alpha version of SafeSWAP.DEX',
     ],
     month: 'Stage 2'
   },
   {
     img: June,
-    date: 'Rounds 14-19',
+    date: 'UPCOMING NEXT ⪼',
     text: [
-      'Deploying SafeWallet.',
-      'Enabling Safereum Smart Contracts.',
-      'Deploying SafeXSwap.',
-      'Deploying Early version of SafeWRK.'
+      'Enabling alpha version of Safepay.',
+      'Expanding network of supported companies.',
     ],
     month: 'Stage 3',
   },
   {
     img: July,
-    date: 'Round 20',
+    date: 'UPCOMING NEXT ⪼',
     text: [
-      'Safereum Bridge for cross-chain.',
-      'Early version of SafeXchange.'
+      'Deploying alpha version of SafeWRK platform.',
+      'Expanding userbase.'
     ],
     month: 'Stage 4',
   },
   {
     img: August,
-    date: 'Rounds 21-25',
+    date: 'UPCOMING NEXT ⪼',
     text: [
-      'Minor and Major exchanges listings.',
-      'Establishment of Safereum Ambassadors.',
-      'Major Partnership.'
+      'Deploying Safereum Coin at Velas Blockchain',
+      'Listing Safereum Coin on minor centralized exchanges.',
+      'Launching several campaings for increased exposure of the project.'
     ],
     month: 'Stage 5',
   },
   {
     img: September,
-    date: 'Rounds 26-29',
+    date: 'UPCOMING NEXT ⪼',
     text: [
-      'Beta Access to SafeXchange.',
-      'Upgrade for all Safereum products.',
+      'Updating products to beta version.',
+      'Upgrading ICO Launchpad platform.',
       'Expanding Safereum team.',
     ],
     month: 'Stage 6',
   },
   {
     img: October,
-    date: 'Rounds 30-35',
+    date: 'UPCOMING NEXT ⪼',
     text: [
-      'Launching Blockfund platform.',
-      'SafeChain upgrade to v1.0.'],
+      'Deploying Testnet version of SafeChain.',
+      'Launching Public tests of SafeChain.'
+    ],
     month: 'Stage 7',
   },
   {
     img: November,
-    date: 'Rounds 36-45',
+    date: 'UPCOMING NEXT ⪼',
     text: [
-      'Finalization of the project.',
-      'Expansion of Safereum Network services.',
-      'Listing Safereum Coin on Top exchanges.',
-      'Starting 30 days countdown for official launchpad finish.'
+      'Launching final version of Safereum products.',
+      'Deploying Safepay Terminals for firms.',
+      'Major testing for Safechain Terminals',
     ],
     month: 'Stage 8',
   },
   {
     img: January_2021_2022,
-    date: 'Bonus Rounds',
+    date: 'UPCOMING NEXT ⪼',
     text: [
       'Global Product Marketing.',
       'Unlocking launchpad coins.',
-      'Providing additional liquidity for SafeSwap USD/SFX pair.',
+      'Deploying Safechain 1.0',
     ],
     month: 'Stage 9'
   },
@@ -249,107 +246,101 @@ export default function RoadMap() {
             <div className="time_title">
               <div className="n01">
                 <p className="number_time">01</p>
-                <span><strong>Coin Development</strong><br />
+                <span><strong>Rebranding</strong><br />
                   <ul>
-                  Rounds 4-7
+                  DONE ✓
                     <li>
-                  Launching Safereum Coin for Public.
+                  Finalization of rebranding.
+                </li>
+                <li>
+                  Relaunch of ICO Launchpad.
                 </li>
                   </ul>
                 </span>
               </div>
               <div className="n01">
                 <p className="number_time">02</p>
-                <span><strong>Safepay & Safenet</strong></span>
+                <span><strong>SafeSwap</strong></span>
                 <ul>
-                Rounds 8-13
+                ACTIVE ⌛
                   <li>
-                    Enabling primary version of Safepay.
+                    Deploying alpha version of SafeSWAP.Futures
+                    
               </li>
                   <li>
-                    Expanding list of supported companies.
-              </li>
-              <li>
-                    Safechain v0.1.
+                    Deploying alpha version of SafeSWAP.DEX
               </li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">03</p>
-                <span><strong>Essentials</strong></span>
+                <span><strong>Safepay</strong></span>
                 <ul>
-                  Rounds 14-19
+                  UPCOMING NEXT ⪼
                   <li>
-                    Deploying SafeWallet.
+                    Deploying alpha version of Safepay.
               </li>
                   <li>
-                    Enabling Safereum Smart Contracts.
-              </li>
-                  <li>
-                    Deploying SafeXSwap.
-              </li>
-                  <li>
-                    Deploying Early version of SafeWRK.
+                    Expanding network of supported companies.
               </li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">04</p>
-                <span><strong>Centralized Exchange</strong></span>
+                <span><strong>SafeWRK</strong></span>
                 <ul>
-                  Round 20
-                  <li>Safereum Bridge for cross-chain.</li>
-                  <li>Early version of SafeXchange.</li>
+                  UPCOMING NEXT ⪼
+                  <li>Deploying alpha version of SafeWRK platform.</li>
+                  <li>Expanding userbase.</li>
                   </ul>
               </div>
               <div className="n01">
                 <p className="number_time">05</p>
-                <span><strong>Advanced Marketing</strong></span>
+                <span><strong>Marketing</strong></span>
                 <ul>
-                  Rounds 21-25
-                  <li>Minor and Major exchanges listings.</li>
-                  <li>Establishment of Safereum Ambassadors.</li>
-                  <li>Major Partnership.</li>
+                UPCOMING NEXT ⪼
+                  <li>Deploying Safereum Coin at Velas Blockchain</li>
+                  <li>Listing Safereum Coin on minor centralized exchanges.</li>
+                  <li>Launching several campaings for increased exposure of the project.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">06</p>
-                <span><strong>Major Upgrade</strong></span>
+                <span><strong>Major Update</strong></span>
                 <ul>
-                  Rounds 26-29
-                  <li>Beta Access to SafeXchange.</li>
-                  <li>Upgrade for all Safereum products.</li>
+                UPCOMING NEXT ⪼
+                  <li>Updating products to beta version.</li>
+                  <li>Upgrading ICO Launchpad platform.</li>
                   <li>Expanding Safereum team.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">07</p>
-                <span><strong>Safechain & More.</strong></span>
+                <span><strong>Safechain Alpha</strong></span>
                 <ul>
-                  Rounds 30-35
-                  <li>Launching Blockfund platform.</li>
-                  <li>SafeChain upgrade to v1.0.</li>
+                UPCOMING NEXT ⪼
+                  <li>Deploying Testnet version of SafeChain.</li>
+                  <li>Launching Public tests of SafeChain.</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">08</p>
-                <span><strong>The Last Push</strong></span>
+                <span><strong>Major Update</strong></span>
                 <ul>
-                  Rounds 36-45
-                  <li>Finalization of the project.</li>
-                  <li>Expansion of Safereum Network services.</li>
-                  <li>Listing Safereum Coin on Top exchanges.</li>
-                  <li>Starting 30 days countdown for official launchpad finish.</li>
+                UPCOMING NEXT ⪼
+                  <li>Launching final version of Safereum products.</li>
+                  <li>Deploying Safepay Terminals for firms.</li>
+                  <li>Major testing for Safechain Terminals</li>
                 </ul>
               </div>
               <div className="n01">
                 <p className="number_time">09</p>
-                <span><strong>Major Marketing</strong></span>
+                <span><strong>Finish</strong></span>
                 <ul>
-                  Bonus Rounds
+                UPCOMING NEXT ⪼
                   <li>Global Product Marketing.</li>
                   <li>Unlocking launchpad coins.</li>
-                  <li>Providing additional liquidity for SafeSwap USD/SFX pair.</li>
+                  <li>Deploying Safechain 1.0</li>
                 </ul>
               </div>
               <div className="n01">
@@ -358,7 +349,7 @@ export default function RoadMap() {
             </div>
           </div>
         </div>
-        <h2 className="container__information">All above information are only estimated, events may be completed sooner or later than it states.</h2>
+        <h2 className="container__information">All of above milestones are estimate of our plans, please keep in mind that some of them may come in different order.</h2>
       </div>
     </div>
   )

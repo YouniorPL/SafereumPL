@@ -35,10 +35,10 @@ class Nav extends Component {
         { key: 1, menuItem: 'HOME', active: true, link: '/#' },
         { key: 2, menuItem: 'DOCS', active: false, link: '/Documentation' },
         { key: 3, menuItem: 'PARTNERS', active: false, link: '/Partners' },
-        { key: 4, menuItem: 'GIVEAWAY', active: false, link: '/Giveaway' },
-        { key: 5, menuItem: 'AFFILIATE', active: false, link: '/Affiliate'},
-        { key: 6, menuItem: 'ROADMAP', active: false, link: '/#roadmap'},
-        { key: 7, menuItem: 'BUY SFX', active: false, link: '/HowToBuy'},
+        { key: 4, menuItem: 'AFFILIATE', active: false, link: '/Affiliate' },
+        { key: 5, menuItem: 'ROADMAP', active: false, link: '/#roadmap'},
+        { key: 6, menuItem: 'BUY SFX', active: false, link: '/HowToBuy'},
+        { key: 7, menuItem: 'SAFESWAP', active: false, link: '/Swap'},
 
               ]
     }

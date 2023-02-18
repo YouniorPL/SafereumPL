@@ -74,7 +74,7 @@ class Header extends Component {
 
               </div>
               <div className="header_head_dont_stop">
-                <h3 className="purple_name_tiny">WEB3 REVOLUTION!</h3>
+                <h3 className="purple_name_tiny">WEB3.0 REVOLUTION!</h3>
                 <h2 className="welcome_text">WELCOME TO</h2>
                 <h1>SAFEREUM!</h1>
                 <h4 className="purple_name_regular">Your global payment and safety provider!</h4>
@@ -113,16 +113,16 @@ class Header extends Component {
             </div>
            <div className="categorynameheader_wrap">
               <CategoryNameHeader
-                title='Why Safereum Network?'
-                subtitle='Ecosystem'
-                text='- Our unique idea makes Safereum the most stable currency worldwide.'
+                title='GLOBAL PROBLEM'
+                subtitle='Crypto Payments'
+                text='- Until now there are no many places that accept cryptoccurency as payment method, with Safereum Network we aim to solve that issue!'
               />
               <CategoryNameHeader
-                title='MAIN PRODUCTS'
+                title='OUR PRODUCTS'
                 subtitle='Safepay'
-                text='Our payment system is build for safety and privacy.'
+                text='Safepay is the most important part of our project, it will allow firms to accept low-gas currencies as a payment without complicated processes.'
                 subtitle2='SafeWRK'
-                text2='Work SMART not hard; when you take care of your client, we will take care of your business.'
+                text2='SafeWRK platform aims to help startups and freelancers in finding clients for their services locally and globally.'
               />
             </div>
             <img className="scroll" src={Scroll} alt="" />

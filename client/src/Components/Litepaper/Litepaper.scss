@@ -1,4 +1,4 @@
-.litepaper {
+.safepay {
   position: relative;
   img {
     width: calc(100% + 60px);
@@ -7,14 +7,14 @@
   .BtnCta {
     margin-top: 40px;
   }
-  #litepaper {
+  #safepay {
     position: absolute;
     top: -80px;
   }
 }
 
 @media (min-width: 768px) {
-  .litepaper {
+  .safepay {
     height: 100%;
     img {
       position: absolute;
@@ -32,30 +32,30 @@
     .category_name {
       width: 75%;
     }
-    .litepaper_text {
+    .safepay_text {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
     }
-    .litepaper_first_p {
+    .safepay_first_p {
       width: 49%;
       margin-top: 60px;
     }
-    .litepaper_second_p {
+    .safepay_second_p {
       margin-top: 80px;
     }
   }
 }
 @media (min-width: 850px) {
-  .litepaper {
+  .safepay {
     .category_name {
       margin-bottom: 60px;
     }
   }
 }
 @media (min-width: 900px) {
-  .litepaper {
-    .litepaper_wrapper {
+  .safepay {
+    .safepay_wrapper {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -67,10 +67,10 @@
       width: 49%;
       margin-bottom: 26px;
     }
-    .litepaper_first_p {
+    .safepay_first_p {
       margin-top: unset;
     }
-    .litepaper_second_p {
+    .safepay_second_p {
       margin-top: unset;
       width: 49%;
     }
@@ -80,28 +80,28 @@
   }
 }
 @media (min-width: 1100px) {
-  .litepaper {
+  .safepay {
     img {
       bottom: 0;
     }
   }
 }
 @media (min-width: 1200px) {
-  .litepaper {
-    .litepaper_text {
+  .safepay {
+    .safepay_text {
       display: unset;
     }
-    .litepaper_first_p {
+    .safepay_first_p {
       width: 100%;
     }
-    .litepaper_second_p {
+    .safepay_second_p {
       width: 100%;
     }
     .container {
       display: flex;
       flex-direction: row-reverse;
     }
-    .litepaper_wrapper {
+    .safepay_wrapper {
       width: 50%;
     }
     .BtnCta {
@@ -110,7 +110,7 @@
     .category_name {
       width: unset;
     }
-    .litepaper_wrapper {
+    .safepay_wrapper {
       width: 47%;
     }
     .see_more_lite_paper {
@@ -119,28 +119,28 @@
   }
 }
 @media (min-width: 1500px) {
-  .litepaper {
+  .safepay {
     img {
       top: unset;
     }
   }
 }
 @media (min-width: 1600px) {
-  .litepaper {
+  .safepay {
     .container {
       padding-bottom: 100px;
     }
   }
 }
 @media (min-width: 1700px) {
-  .litepaper {
+  .safepay {
     .container {
       padding-top: 50px;
     }
   }
 }
 @media (min-width: 1900px) {
-  .litepaper {
+  .safepay {
     height: 815px;
   }
 }

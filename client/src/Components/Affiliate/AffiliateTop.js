@@ -33,8 +33,9 @@ export default function About() {
           - PAYPAL -- <strong>FASTEST!</strong> --<br />
           - Crypto transfers (BTC, ETH, XLM, USDT AND MANY MORE)<br />
           <i>*Availability of payment methods can be different for each country</i></p>
-          <p className="what_are_the"><strong>IS THIS LEGAL?</strong><br />
-          Our system is not a MLM scheme, we only award you for inviting a friend, and there is no sub-tiers availble.<br />
+          <p className="what_are_the"><strong>ARE THERE ANY LIMITATIONS?</strong><br />
+          No, there is no limit for earnings, you can invite as many friends as you want.
+          
            </p>
           
         </div>

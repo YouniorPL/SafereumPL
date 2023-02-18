@@ -2,13 +2,17 @@ import CategoryName from '../CategoryName/CategoryName'
 import './List.scss'
 import GranTurismo from './logo/granturismo2.png'
 import NikosMoto from './logo/NikosMoto.png'
-import SafereumTeam from '../../Assets/photos/astronaut.png'
+import SafereumTeam from './images/Safepay.png'
 
 export default function SafereumTea() {
   return (
     <div className="andromedateam">
       <div id="team"></div>
       <div className="container">
+      <div className="austronaut"> {
+          <img src={SafereumTeam} alt="" />
+        }
+        </div>
         <CategoryName
           title='SAFEREUM OFFICIAL PARTNERS'
           subtitle="PARTNERS FROM THIS LIST ACCEPT OR WILL ACCEPT SAFEREUM COIN AS THEIR PAYMENT METHOD."/>
@@ -38,10 +42,7 @@ export default function SafereumTea() {
             </div>
           </div>
         </div>
-        <div className="austronaut"> {
-          <img src={SafereumTeam} alt="" />
-        }
-        </div>
+        
       </div>
     </div>
   )

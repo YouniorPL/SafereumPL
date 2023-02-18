@@ -13,13 +13,16 @@ import Mistake404 from './Pages/Mistake404';
 import "./App.scss"
 import ThankYouPage from './Pages/ThankYouPage';
 import CookiesPage from './Pages/Cookies';
-import Welcome from "./Pages/Welcome";
+import Promo from "./Pages/Promo";
 import Giveaway from "./Pages/Giveaway";
 import AffiliatePage from './Pages/Affiliate';
 import HowToBuy from './Pages/HowToBuy';
 import Partners from './Pages/Partners';
 import Docs from './Pages/Docs'
-
+import Apx from './Pages/ApolloX'
+import DPS from './Pages/DPS'
+import Swap from './Pages/Swap'
+import InterFi from './Pages/InterFi'
 
 
 setInterval(window.onload = function () {
@@ -84,9 +87,9 @@ function App() {
           <Nav />
             <Giveaway />
           </Route>
-          <Route path="/Welcome">
+          <Route path="/Promo">
           <Nav />
-            <Welcome />
+            <Promo />
             </Route>
           <Route path="/Affiliate">
           <Nav />
@@ -95,6 +98,19 @@ function App() {
           <Route path="/HowToBuy">
           <Nav2 />
             <HowToBuy />
+          </Route>
+          <Route path="/ApolloX">
+            <Apx />
+          </Route>
+          <Route path="/DappPlayStore">
+            <DPS />
+          </Route>
+          <Route path="/Swap">
+          <Nav />
+            <Swap /> 
+          </Route>
+          <Route path="/InterFi">
+            <InterFi />
           </Route>
           <Mistake404 />
           <Route>
